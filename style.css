@@ -163,7 +163,7 @@ header
     display: inline-block;
     width: 40px;
     height: 40px;
-    background-image: url(../images/tomato.svg);
+    background-image: url(tomato.svg);
     background-size :contain;
     background-position: center;
     background-repeat: no-repeat;
@@ -174,7 +174,7 @@ header
     display: inline-block;
     width: 40px;
     height: 40px;
-    background-image: url(../images/eggplant.svg);
+    background-image: url(eggplant.svg);
     background-size :contain;
     background-position: center;
     background-repeat: no-repeat;
@@ -185,7 +185,7 @@ header
     display: inline-block;
     width: 40px;
     height: 40px;
-    background-image: url(../images/broccoli.svg);
+    background-image: url(broccoli.svg);
     background-size :contain;
     background-position: center;
     background-repeat: no-repeat;
@@ -196,7 +196,7 @@ header
     display: inline-block;
     width: 40px;
     height: 40px;
-    background-image: url(../images/onion.svg);
+    background-image: url(onion.svg);
     background-size :contain;
     background-position: center;
     background-repeat: no-repeat;
@@ -207,7 +207,7 @@ header
     display: inline-block;
     width: 40px;
     height: 40px;
-    background-image: url(../images/carrot.svg);
+    background-image: url(carrot.svg);
     background-size :contain;
     background-position: center;
     background-repeat: no-repeat;
@@ -303,7 +303,7 @@ articlehaeader
 ==============================*/
 .article__header {
     height: 400px;
-    background-image: url(../images/main_sp.jpg);
+    background-image: url(main_sp.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
@@ -325,7 +325,7 @@ articlehaeader
 /* articlehaeader_pc */
 @media screen and (min-width: 769px) {
     .article__header {
-        background-image: url(../images/main.jpg);
+        background-image: url(main.jpg);
         height: 800px;
     }
     .message__pc {
@@ -401,7 +401,7 @@ quality
 .section--quality {
     text-align: center;
     padding: 48px 4.2%;
-    background-image: url(../images/quality.png);
+    background-image: url(quality.png);
     background-repeat: no-repeat;
     background-size: cover;
     /* position: relative; */   
@@ -427,7 +427,7 @@ quality
     .section--quality {
         padding: 120px 0 120px 0;
         text-align: center;
-        background-image: url(../images/quality_pc.jpg);
+        background-image: url(quality_pc.jpg);
     }
     
     .puality__topic {
@@ -557,7 +557,7 @@ trial
 ==============================*/
 .section--trial {
     padding: 48px 4.2%;
-    background-image: url(../images/back_boad.jpg);
+    background-image: url(back_boad.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     text-align: center;
@@ -621,7 +621,7 @@ trial
     .section--trial {
         padding: 120px 0;
         text-align: center;
-        background-image: url(../images/back_boad_pc.jpg);
+        background-image: url(back_boad_pc.jpg);
         position: relative;
     }
     .section--trial::before {
@@ -629,7 +629,7 @@ trial
         display: inline-block;
         width: 235px;
         height: 219px;
-        background-image: url(../images/tomato.png);
+        background-image: url(tomato.png);
         background-size :contain;
         background-position: center;
         background-repeat: no-repeat;
@@ -644,7 +644,7 @@ trial
         width: 226px;
         height: 257px;
         transform: rotate(-11deg);
-        background-image: url(../images/ピーマン.png);
+        background-image: url(ピーマン.png);
         background-size :contain;
         background-position: center;
         background-repeat: no-repeat;
@@ -753,7 +753,7 @@ organic
 ==============================*/
 .section--organic {
     padding: 48px 4.2%; 
-    background-image: url(../images/organic_back_sp.jpg);
+    background-image: url(organic_back_sp.jpg);
     background-repeat: no-repeat;
     background-size: cover;   
 }
@@ -771,7 +771,7 @@ organic
  @media screen and (min-width: 769px){
     .section--organic {
         padding: 120px 0;
-        background-image: url(../images/organic_back_pc.jpg);
+        background-image: url(organic_back_pc.jpg);
         text-align: center;
     }
     .organic__txt {
@@ -894,7 +894,7 @@ question
     align-items: center;
 }
 .question__q::before{
-    content: url(../images/Q.svg);
+    content: url(Q.svg);
     display: inline-block;
     margin-right: 8px;
 }
@@ -908,7 +908,7 @@ question
     align-items: center;
 }
 .question__a::before{
-    content: url(../images/A.svg);
+    content: url(A.svg);
     display: inline-block;
     margin-right: 8px;
 }
